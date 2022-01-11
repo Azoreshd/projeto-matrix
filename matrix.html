@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Matrix - CODE</title>
+  </head>
+  <body>
+    <div id="main">
+      <nav>
+        <a class="Logo_Canatrix" href="matrix.html">Canatrix</a>
+        <ul class="informacoes">
+          <li class="topicos"><a href="#">Home</a></li>
+          <li class="topicos"><a href="#">About</a></li>
+          <li class="topicos"><a href="#">Contatc</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+    <div class="square">
+        <div>
+            <div id="foto_redonda1">
+                <img id="imagem1"src="./imagens/imagem01.jpeg">
+            </div>
+                <h1 class="titulo_box">Box 1</h1>
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe nulla adipisci suscipit dolor distinctio officiis error sit veritatis dignissimos corporis sequi fuga, nostrum natus nam consectetur animi et mollitia?</p>
+            
+        </div>
+    </div>
+    <div class="square">
+        <div>
+            <div id="foto_redonda1">
+                <img id="imagem1"src="./imagens/imagem01.jpeg">
+            </div>
+                <h1 class="titulo_box">Box 1</h1>
+                <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, nihil corrupti. Eos, soluta accusamus dolore tenetur, est velit eligendi repellendus harum, iure assumenda magnam aliquid? Error dolor delectus cum tempora.</p>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+      <div class="sidebar">
+        <div class="logo_content">
+          <div class="logo">
+            <i></i>
+            <div class="logo_name">Contatos</div>
+          </div>
+          <i class="bx bx-menu" id="btn" onclick="active()"></i>
+        </div>
+        <!-- NAVBAR LATERAL DIREITO -->
+        <ul class="nav_list">
+          <li>
+            <a href="https://www.linkedin.com/in/pedro-canato-b2269a206/" target="_blank">
+            <i class='bx bxl-linkedin-square'></i>
+            <span class="links_name">LinkedIn</span> </a>
+            <span class="tooltip">LinkedIn</span>
+          </li>
+
+          
+
+          <li>
+            <a href="#" target="_blank">
+                <i class='bx bxl-instagram-alt'></i>
+                <span class="links_name">Instagram</span></a>
+            <span class="tooltip">Instagram</span>
+          </li>
+
+          <li>
+            <a href="#" target="_blank">
+                <i class='bx bxl-facebook-square'></i>
+                <span class="links_name">Facebook</span></a>
+                <span class="tooltip">Facebook</span>
+          </li>
+
+          <li>
+            <a href="https://github.com/Azoreshd" target="_blank">
+            <i class='bx bxl-github'></i>
+              <span class="links_name">GitHub</span></a>
+            <span class="tooltip">GitHub</span>
+          </li>
+
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=5567984496811&text=Olá, seja bem-vindo! como posso te ajudar?" target="_blank">
+            <i class='bx bxl-whatsapp' ></i>
+            <span class="links_name">Whatsapp</span></a>
+            <span class="tooltip">Whatsapp</span>
+          </li>
+
+        </ul>
+        <!-- NAVBAR LATERAL DIREITO -->
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    <script>
+      let btn = document.querySelector("#btn");
+      let sidebar = document.querySelector(".sidebar");
+
+      btn.onclick = function () {
+        sidebar.classList.toggle("active");
+      };
+    </script>
+    <canvas id="Matrix"></canvas>
+    <script src="/index.js"></script>
+  </body>
+</html>
